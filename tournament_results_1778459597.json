@@ -1,0 +1,2556 @@
+{
+  "Snake_Baseline_vs_Expert_Defensive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 48.0,
+    "p1_deaths": {
+      "opponent_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 190,
+      "1": 280,
+      "2": 0,
+      "3": 0
+    },
+    "p2_directions": {
+      "0": 190,
+      "1": 80,
+      "2": 170,
+      "3": 10
+    }
+  },
+  "Snake_Baseline_vs_Expert_Balanced": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 48.0,
+    "p1_deaths": {
+      "opponent_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 190,
+      "1": 280,
+      "2": 0,
+      "3": 0
+    },
+    "p2_directions": {
+      "0": 190,
+      "1": 80,
+      "2": 170,
+      "3": 10
+    }
+  },
+  "Snake_Baseline_vs_Expert_Aggressive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 0,
+    "ties": 10,
+    "avg_turns": 127.0,
+    "p1_deaths": {
+      "head_collision": 10
+    },
+    "p2_deaths": {
+      "head_collision": 10
+    },
+    "p1_directions": {
+      "0": 210,
+      "1": 290,
+      "2": 380,
+      "3": 360
+    },
+    "p2_directions": {
+      "0": 210,
+      "1": 180,
+      "2": 380,
+      "3": 470
+    }
+  },
+  "Snake_Baseline_vs_Expert_Advanced": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 0,
+    "ties": 10,
+    "avg_turns": 182.0,
+    "p1_deaths": {
+      "head_collision": 10
+    },
+    "p2_deaths": {
+      "head_collision": 10
+    },
+    "p1_directions": {
+      "0": 580,
+      "1": 450,
+      "2": 400,
+      "3": 360
+    },
+    "p2_directions": {
+      "0": 570,
+      "1": 350,
+      "2": 390,
+      "3": 480
+    }
+  },
+  "Snake_Baseline_vs_Phase1_Greedy": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 281.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 930,
+      "1": 590,
+      "2": 740,
+      "3": 520
+    },
+    "p2_directions": {
+      "0": 610,
+      "1": 570,
+      "2": 780,
+      "3": 820
+    }
+  },
+  "Snake_Baseline_vs_Phase1_Cautious": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 281.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 930,
+      "1": 590,
+      "2": 740,
+      "3": 520
+    },
+    "p2_directions": {
+      "0": 610,
+      "1": 570,
+      "2": 780,
+      "3": 820
+    }
+  },
+  "Snake_Baseline_vs_Phase1_Adaptive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 281.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 930,
+      "1": 590,
+      "2": 740,
+      "3": 520
+    },
+    "p2_directions": {
+      "0": 610,
+      "1": 570,
+      "2": 780,
+      "3": 820
+    }
+  },
+  "Snake_Baseline_vs_Phase2_Greedy": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 84.0,
+    "p1_deaths": {
+      "opponent_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 120,
+      "1": 380,
+      "2": 70,
+      "3": 240
+    },
+    "p2_directions": {
+      "0": 150,
+      "1": 340,
+      "2": 0,
+      "3": 330
+    }
+  },
+  "Snake_Baseline_vs_Phase2_Cautious": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 84.0,
+    "p1_deaths": {
+      "opponent_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 120,
+      "1": 380,
+      "2": 70,
+      "3": 240
+    },
+    "p2_directions": {
+      "0": 150,
+      "1": 340,
+      "2": 0,
+      "3": 330
+    }
+  },
+  "Snake_Baseline_vs_Phase2_Adaptive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 84.0,
+    "p1_deaths": {
+      "opponent_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 120,
+      "1": 380,
+      "2": 70,
+      "3": 240
+    },
+    "p2_directions": {
+      "0": 150,
+      "1": 340,
+      "2": 0,
+      "3": 330
+    }
+  },
+  "Expert_Defensive_vs_Snake_Baseline": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 129.0,
+    "p1_deaths": {
+      "wall": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 580,
+      "1": 120,
+      "2": 370,
+      "3": 190
+    },
+    "p2_directions": {
+      "0": 190,
+      "1": 250,
+      "2": 380,
+      "3": 440
+    }
+  },
+  "Expert_Defensive_vs_Expert_Balanced": {
+    "games": 10,
+    "p1_wins": 10,
+    "p2_wins": 0,
+    "ties": 0,
+    "avg_turns": 62.0,
+    "p1_deaths": {},
+    "p2_deaths": {
+      "own_trail": 10
+    },
+    "p1_directions": {
+      "0": 170,
+      "1": 40,
+      "2": 290,
+      "3": 90
+    },
+    "p2_directions": {
+      "0": 270,
+      "1": 150,
+      "2": 100,
+      "3": 70
+    }
+  },
+  "Expert_Defensive_vs_Expert_Aggressive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 123.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 550,
+      "1": 90,
+      "2": 380,
+      "3": 180
+    },
+    "p2_directions": {
+      "0": 310,
+      "1": 280,
+      "2": 250,
+      "3": 360
+    }
+  },
+  "Expert_Defensive_vs_Expert_Advanced": {
+    "games": 10,
+    "p1_wins": 10,
+    "p2_wins": 0,
+    "ties": 0,
+    "avg_turns": 49.0,
+    "p1_deaths": {},
+    "p2_deaths": {
+      "own_trail": 10
+    },
+    "p1_directions": {
+      "0": 190,
+      "1": 20,
+      "2": 160,
+      "3": 90
+    },
+    "p2_directions": {
+      "0": 190,
+      "1": 0,
+      "2": 0,
+      "3": 270
+    }
+  },
+  "Expert_Defensive_vs_Phase1_Greedy": {
+    "games": 10,
+    "p1_wins": 10,
+    "p2_wins": 0,
+    "ties": 0,
+    "avg_turns": 49.0,
+    "p1_deaths": {},
+    "p2_deaths": {
+      "wall": 10
+    },
+    "p1_directions": {
+      "0": 190,
+      "1": 30,
+      "2": 150,
+      "3": 90
+    },
+    "p2_directions": {
+      "0": 200,
+      "1": 0,
+      "2": 0,
+      "3": 280
+    }
+  },
+  "Expert_Defensive_vs_Phase1_Cautious": {
+    "games": 10,
+    "p1_wins": 10,
+    "p2_wins": 0,
+    "ties": 0,
+    "avg_turns": 49.0,
+    "p1_deaths": {},
+    "p2_deaths": {
+      "wall": 10
+    },
+    "p1_directions": {
+      "0": 190,
+      "1": 30,
+      "2": 150,
+      "3": 90
+    },
+    "p2_directions": {
+      "0": 200,
+      "1": 0,
+      "2": 0,
+      "3": 280
+    }
+  },
+  "Expert_Defensive_vs_Phase1_Adaptive": {
+    "games": 10,
+    "p1_wins": 10,
+    "p2_wins": 0,
+    "ties": 0,
+    "avg_turns": 49.0,
+    "p1_deaths": {},
+    "p2_deaths": {
+      "wall": 10
+    },
+    "p1_directions": {
+      "0": 190,
+      "1": 30,
+      "2": 150,
+      "3": 90
+    },
+    "p2_directions": {
+      "0": 200,
+      "1": 0,
+      "2": 0,
+      "3": 280
+    }
+  },
+  "Expert_Defensive_vs_Phase2_Greedy": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 67.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 270,
+      "1": 90,
+      "2": 110,
+      "3": 170
+    },
+    "p2_directions": {
+      "0": 90,
+      "1": 0,
+      "2": 240,
+      "3": 310
+    }
+  },
+  "Expert_Defensive_vs_Phase2_Cautious": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 67.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 270,
+      "1": 90,
+      "2": 110,
+      "3": 170
+    },
+    "p2_directions": {
+      "0": 90,
+      "1": 0,
+      "2": 240,
+      "3": 310
+    }
+  },
+  "Expert_Defensive_vs_Phase2_Adaptive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 67.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 270,
+      "1": 90,
+      "2": 110,
+      "3": 170
+    },
+    "p2_directions": {
+      "0": 90,
+      "1": 0,
+      "2": 240,
+      "3": 310
+    }
+  },
+  "Expert_Balanced_vs_Snake_Baseline": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 129.0,
+    "p1_deaths": {
+      "wall": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 580,
+      "1": 120,
+      "2": 370,
+      "3": 190
+    },
+    "p2_directions": {
+      "0": 190,
+      "1": 250,
+      "2": 380,
+      "3": 440
+    }
+  },
+  "Expert_Balanced_vs_Expert_Defensive": {
+    "games": 10,
+    "p1_wins": 10,
+    "p2_wins": 0,
+    "ties": 0,
+    "avg_turns": 62.0,
+    "p1_deaths": {},
+    "p2_deaths": {
+      "own_trail": 10
+    },
+    "p1_directions": {
+      "0": 170,
+      "1": 40,
+      "2": 290,
+      "3": 90
+    },
+    "p2_directions": {
+      "0": 270,
+      "1": 150,
+      "2": 100,
+      "3": 70
+    }
+  },
+  "Expert_Balanced_vs_Expert_Aggressive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 123.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 550,
+      "1": 90,
+      "2": 380,
+      "3": 180
+    },
+    "p2_directions": {
+      "0": 310,
+      "1": 280,
+      "2": 250,
+      "3": 360
+    }
+  },
+  "Expert_Balanced_vs_Expert_Advanced": {
+    "games": 10,
+    "p1_wins": 10,
+    "p2_wins": 0,
+    "ties": 0,
+    "avg_turns": 49.0,
+    "p1_deaths": {},
+    "p2_deaths": {
+      "own_trail": 10
+    },
+    "p1_directions": {
+      "0": 190,
+      "1": 20,
+      "2": 160,
+      "3": 90
+    },
+    "p2_directions": {
+      "0": 190,
+      "1": 0,
+      "2": 0,
+      "3": 270
+    }
+  },
+  "Expert_Balanced_vs_Phase1_Greedy": {
+    "games": 10,
+    "p1_wins": 10,
+    "p2_wins": 0,
+    "ties": 0,
+    "avg_turns": 49.0,
+    "p1_deaths": {},
+    "p2_deaths": {
+      "wall": 10
+    },
+    "p1_directions": {
+      "0": 190,
+      "1": 30,
+      "2": 150,
+      "3": 90
+    },
+    "p2_directions": {
+      "0": 200,
+      "1": 0,
+      "2": 0,
+      "3": 280
+    }
+  },
+  "Expert_Balanced_vs_Phase1_Cautious": {
+    "games": 10,
+    "p1_wins": 10,
+    "p2_wins": 0,
+    "ties": 0,
+    "avg_turns": 49.0,
+    "p1_deaths": {},
+    "p2_deaths": {
+      "wall": 10
+    },
+    "p1_directions": {
+      "0": 190,
+      "1": 30,
+      "2": 150,
+      "3": 90
+    },
+    "p2_directions": {
+      "0": 200,
+      "1": 0,
+      "2": 0,
+      "3": 280
+    }
+  },
+  "Expert_Balanced_vs_Phase1_Adaptive": {
+    "games": 10,
+    "p1_wins": 10,
+    "p2_wins": 0,
+    "ties": 0,
+    "avg_turns": 49.0,
+    "p1_deaths": {},
+    "p2_deaths": {
+      "wall": 10
+    },
+    "p1_directions": {
+      "0": 190,
+      "1": 30,
+      "2": 150,
+      "3": 90
+    },
+    "p2_directions": {
+      "0": 200,
+      "1": 0,
+      "2": 0,
+      "3": 280
+    }
+  },
+  "Expert_Balanced_vs_Phase2_Greedy": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 67.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 270,
+      "1": 90,
+      "2": 110,
+      "3": 170
+    },
+    "p2_directions": {
+      "0": 90,
+      "1": 0,
+      "2": 240,
+      "3": 310
+    }
+  },
+  "Expert_Balanced_vs_Phase2_Cautious": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 67.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 270,
+      "1": 90,
+      "2": 110,
+      "3": 170
+    },
+    "p2_directions": {
+      "0": 90,
+      "1": 0,
+      "2": 240,
+      "3": 310
+    }
+  },
+  "Expert_Balanced_vs_Phase2_Adaptive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 67.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 270,
+      "1": 90,
+      "2": 110,
+      "3": 170
+    },
+    "p2_directions": {
+      "0": 90,
+      "1": 0,
+      "2": 240,
+      "3": 310
+    }
+  },
+  "Expert_Aggressive_vs_Snake_Baseline": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 72.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 250,
+      "1": 140,
+      "2": 230,
+      "3": 70
+    },
+    "p2_directions": {
+      "0": 190,
+      "1": 170,
+      "2": 240,
+      "3": 90
+    }
+  },
+  "Expert_Aggressive_vs_Expert_Defensive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 153.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 320,
+      "1": 350,
+      "2": 440,
+      "3": 390
+    },
+    "p2_directions": {
+      "0": 420,
+      "1": 130,
+      "2": 530,
+      "3": 420
+    }
+  },
+  "Expert_Aggressive_vs_Expert_Balanced": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 0,
+    "ties": 10,
+    "avg_turns": 151.0,
+    "p1_deaths": {
+      "head_collision": 10
+    },
+    "p2_deaths": {
+      "head_collision": 10
+    },
+    "p1_directions": {
+      "0": 310,
+      "1": 340,
+      "2": 440,
+      "3": 390
+    },
+    "p2_directions": {
+      "0": 400,
+      "1": 140,
+      "2": 530,
+      "3": 410
+    }
+  },
+  "Expert_Aggressive_vs_Expert_Advanced": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 0,
+    "ties": 10,
+    "avg_turns": 10.0,
+    "p1_deaths": {
+      "head_collision": 10
+    },
+    "p2_deaths": {
+      "head_collision": 10
+    },
+    "p1_directions": {
+      "0": 0,
+      "1": 100,
+      "2": 0,
+      "3": 0
+    },
+    "p2_directions": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 100
+    }
+  },
+  "Expert_Aggressive_vs_Phase1_Greedy": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 65.0,
+    "p1_deaths": {
+      "opponent_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 140,
+      "1": 300,
+      "2": 60,
+      "3": 120
+    },
+    "p2_directions": {
+      "0": 160,
+      "1": 200,
+      "2": 30,
+      "3": 230
+    }
+  },
+  "Expert_Aggressive_vs_Phase1_Cautious": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 65.0,
+    "p1_deaths": {
+      "opponent_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 140,
+      "1": 300,
+      "2": 60,
+      "3": 120
+    },
+    "p2_directions": {
+      "0": 160,
+      "1": 200,
+      "2": 30,
+      "3": 230
+    }
+  },
+  "Expert_Aggressive_vs_Phase1_Adaptive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 65.0,
+    "p1_deaths": {
+      "opponent_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 140,
+      "1": 300,
+      "2": 60,
+      "3": 120
+    },
+    "p2_directions": {
+      "0": 160,
+      "1": 200,
+      "2": 30,
+      "3": 230
+    }
+  },
+  "Expert_Aggressive_vs_Phase2_Greedy": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 49.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 70,
+      "1": 230,
+      "2": 50,
+      "3": 110
+    },
+    "p2_directions": {
+      "0": 130,
+      "1": 90,
+      "2": 0,
+      "3": 250
+    }
+  },
+  "Expert_Aggressive_vs_Phase2_Cautious": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 49.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 70,
+      "1": 230,
+      "2": 50,
+      "3": 110
+    },
+    "p2_directions": {
+      "0": 130,
+      "1": 90,
+      "2": 0,
+      "3": 250
+    }
+  },
+  "Expert_Aggressive_vs_Phase2_Adaptive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 49.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 70,
+      "1": 230,
+      "2": 50,
+      "3": 110
+    },
+    "p2_directions": {
+      "0": 130,
+      "1": 90,
+      "2": 0,
+      "3": 250
+    }
+  },
+  "Expert_Advanced_vs_Snake_Baseline": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 0,
+    "ties": 10,
+    "avg_turns": 182.0,
+    "p1_deaths": {
+      "head_collision": 10
+    },
+    "p2_deaths": {
+      "head_collision": 10
+    },
+    "p1_directions": {
+      "0": 500,
+      "1": 540,
+      "2": 320,
+      "3": 430
+    },
+    "p2_directions": {
+      "0": 580,
+      "1": 350,
+      "2": 400,
+      "3": 460
+    }
+  },
+  "Expert_Advanced_vs_Expert_Defensive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 48.0,
+    "p1_deaths": {
+      "opponent_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 190,
+      "1": 270,
+      "2": 0,
+      "3": 0
+    },
+    "p2_directions": {
+      "0": 190,
+      "1": 80,
+      "2": 160,
+      "3": 20
+    }
+  },
+  "Expert_Advanced_vs_Expert_Balanced": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 48.0,
+    "p1_deaths": {
+      "opponent_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 190,
+      "1": 270,
+      "2": 0,
+      "3": 0
+    },
+    "p2_directions": {
+      "0": 190,
+      "1": 80,
+      "2": 160,
+      "3": 20
+    }
+  },
+  "Expert_Advanced_vs_Expert_Aggressive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 0,
+    "ties": 10,
+    "avg_turns": 10.0,
+    "p1_deaths": {
+      "head_collision": 10
+    },
+    "p2_deaths": {
+      "head_collision": 10
+    },
+    "p1_directions": {
+      "0": 0,
+      "1": 100,
+      "2": 0,
+      "3": 0
+    },
+    "p2_directions": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 100
+    }
+  },
+  "Expert_Advanced_vs_Phase1_Greedy": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 0,
+    "ties": 10,
+    "avg_turns": 70.0,
+    "p1_deaths": {
+      "opponent_trail": 10
+    },
+    "p2_deaths": {
+      "wall": 10
+    },
+    "p1_directions": {
+      "0": 70,
+      "1": 150,
+      "2": 220,
+      "3": 230
+    },
+    "p2_directions": {
+      "0": 80,
+      "1": 0,
+      "2": 270,
+      "3": 320
+    }
+  },
+  "Expert_Advanced_vs_Phase1_Cautious": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 0,
+    "ties": 10,
+    "avg_turns": 70.0,
+    "p1_deaths": {
+      "opponent_trail": 10
+    },
+    "p2_deaths": {
+      "wall": 10
+    },
+    "p1_directions": {
+      "0": 70,
+      "1": 150,
+      "2": 220,
+      "3": 230
+    },
+    "p2_directions": {
+      "0": 80,
+      "1": 0,
+      "2": 270,
+      "3": 320
+    }
+  },
+  "Expert_Advanced_vs_Phase1_Adaptive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 0,
+    "ties": 10,
+    "avg_turns": 70.0,
+    "p1_deaths": {
+      "opponent_trail": 10
+    },
+    "p2_deaths": {
+      "wall": 10
+    },
+    "p1_directions": {
+      "0": 70,
+      "1": 150,
+      "2": 220,
+      "3": 230
+    },
+    "p2_directions": {
+      "0": 80,
+      "1": 0,
+      "2": 270,
+      "3": 320
+    }
+  },
+  "Expert_Advanced_vs_Phase2_Greedy": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 45.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 60,
+      "1": 200,
+      "2": 60,
+      "3": 100
+    },
+    "p2_directions": {
+      "0": 130,
+      "1": 90,
+      "2": 0,
+      "3": 210
+    }
+  },
+  "Expert_Advanced_vs_Phase2_Cautious": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 45.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 60,
+      "1": 200,
+      "2": 60,
+      "3": 100
+    },
+    "p2_directions": {
+      "0": 130,
+      "1": 90,
+      "2": 0,
+      "3": 210
+    }
+  },
+  "Expert_Advanced_vs_Phase2_Adaptive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 45.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 60,
+      "1": 200,
+      "2": 60,
+      "3": 100
+    },
+    "p2_directions": {
+      "0": 130,
+      "1": 90,
+      "2": 0,
+      "3": 210
+    }
+  },
+  "Phase1_Greedy_vs_Snake_Baseline": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 130.0,
+    "p1_deaths": {
+      "wall": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 290,
+      "1": 200,
+      "2": 480,
+      "3": 300
+    },
+    "p2_directions": {
+      "0": 190,
+      "1": 250,
+      "2": 380,
+      "3": 450
+    }
+  },
+  "Phase1_Greedy_vs_Expert_Defensive": {
+    "games": 10,
+    "p1_wins": 10,
+    "p2_wins": 0,
+    "ties": 0,
+    "avg_turns": 62.0,
+    "p1_deaths": {},
+    "p2_deaths": {
+      "own_trail": 10
+    },
+    "p1_directions": {
+      "0": 180,
+      "1": 140,
+      "2": 200,
+      "3": 70
+    },
+    "p2_directions": {
+      "0": 270,
+      "1": 150,
+      "2": 100,
+      "3": 70
+    }
+  },
+  "Phase1_Greedy_vs_Expert_Balanced": {
+    "games": 10,
+    "p1_wins": 10,
+    "p2_wins": 0,
+    "ties": 0,
+    "avg_turns": 62.0,
+    "p1_deaths": {},
+    "p2_deaths": {
+      "own_trail": 10
+    },
+    "p1_directions": {
+      "0": 180,
+      "1": 140,
+      "2": 200,
+      "3": 70
+    },
+    "p2_directions": {
+      "0": 270,
+      "1": 150,
+      "2": 100,
+      "3": 70
+    }
+  },
+  "Phase1_Greedy_vs_Expert_Aggressive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 150.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 350,
+      "1": 430,
+      "2": 460,
+      "3": 230
+    },
+    "p2_directions": {
+      "0": 260,
+      "1": 360,
+      "2": 300,
+      "3": 550
+    }
+  },
+  "Phase1_Greedy_vs_Expert_Advanced": {
+    "games": 10,
+    "p1_wins": 10,
+    "p2_wins": 0,
+    "ties": 0,
+    "avg_turns": 87.0,
+    "p1_deaths": {},
+    "p2_deaths": {
+      "own_trail": 10
+    },
+    "p1_directions": {
+      "0": 160,
+      "1": 340,
+      "2": 280,
+      "3": 60
+    },
+    "p2_directions": {
+      "0": 130,
+      "1": 300,
+      "2": 150,
+      "3": 260
+    }
+  },
+  "Phase1_Greedy_vs_Phase1_Cautious": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 71.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 140,
+      "1": 170,
+      "2": 250,
+      "3": 120
+    },
+    "p2_directions": {
+      "0": 40,
+      "1": 130,
+      "2": 230,
+      "3": 280
+    }
+  },
+  "Phase1_Greedy_vs_Phase1_Adaptive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 71.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 140,
+      "1": 170,
+      "2": 250,
+      "3": 120
+    },
+    "p2_directions": {
+      "0": 40,
+      "1": 130,
+      "2": 230,
+      "3": 280
+    }
+  },
+  "Phase1_Greedy_vs_Phase2_Greedy": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 112.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 250,
+      "1": 290,
+      "2": 310,
+      "3": 240
+    },
+    "p2_directions": {
+      "0": 160,
+      "1": 200,
+      "2": 340,
+      "3": 390
+    }
+  },
+  "Phase1_Greedy_vs_Phase2_Cautious": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 112.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 250,
+      "1": 290,
+      "2": 310,
+      "3": 240
+    },
+    "p2_directions": {
+      "0": 160,
+      "1": 200,
+      "2": 340,
+      "3": 390
+    }
+  },
+  "Phase1_Greedy_vs_Phase2_Adaptive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 112.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 250,
+      "1": 290,
+      "2": 310,
+      "3": 240
+    },
+    "p2_directions": {
+      "0": 160,
+      "1": 200,
+      "2": 340,
+      "3": 390
+    }
+  },
+  "Phase1_Cautious_vs_Snake_Baseline": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 130.0,
+    "p1_deaths": {
+      "wall": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 290,
+      "1": 200,
+      "2": 480,
+      "3": 300
+    },
+    "p2_directions": {
+      "0": 190,
+      "1": 250,
+      "2": 380,
+      "3": 450
+    }
+  },
+  "Phase1_Cautious_vs_Expert_Defensive": {
+    "games": 10,
+    "p1_wins": 10,
+    "p2_wins": 0,
+    "ties": 0,
+    "avg_turns": 62.0,
+    "p1_deaths": {},
+    "p2_deaths": {
+      "own_trail": 10
+    },
+    "p1_directions": {
+      "0": 180,
+      "1": 140,
+      "2": 200,
+      "3": 70
+    },
+    "p2_directions": {
+      "0": 270,
+      "1": 150,
+      "2": 100,
+      "3": 70
+    }
+  },
+  "Phase1_Cautious_vs_Expert_Balanced": {
+    "games": 10,
+    "p1_wins": 10,
+    "p2_wins": 0,
+    "ties": 0,
+    "avg_turns": 62.0,
+    "p1_deaths": {},
+    "p2_deaths": {
+      "own_trail": 10
+    },
+    "p1_directions": {
+      "0": 180,
+      "1": 140,
+      "2": 200,
+      "3": 70
+    },
+    "p2_directions": {
+      "0": 270,
+      "1": 150,
+      "2": 100,
+      "3": 70
+    }
+  },
+  "Phase1_Cautious_vs_Expert_Aggressive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 150.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 350,
+      "1": 430,
+      "2": 460,
+      "3": 230
+    },
+    "p2_directions": {
+      "0": 260,
+      "1": 360,
+      "2": 300,
+      "3": 550
+    }
+  },
+  "Phase1_Cautious_vs_Expert_Advanced": {
+    "games": 10,
+    "p1_wins": 10,
+    "p2_wins": 0,
+    "ties": 0,
+    "avg_turns": 87.0,
+    "p1_deaths": {},
+    "p2_deaths": {
+      "own_trail": 10
+    },
+    "p1_directions": {
+      "0": 160,
+      "1": 340,
+      "2": 280,
+      "3": 60
+    },
+    "p2_directions": {
+      "0": 130,
+      "1": 300,
+      "2": 150,
+      "3": 260
+    }
+  },
+  "Phase1_Cautious_vs_Phase1_Greedy": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 71.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 140,
+      "1": 170,
+      "2": 250,
+      "3": 120
+    },
+    "p2_directions": {
+      "0": 40,
+      "1": 130,
+      "2": 230,
+      "3": 280
+    }
+  },
+  "Phase1_Cautious_vs_Phase1_Adaptive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 71.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 140,
+      "1": 170,
+      "2": 250,
+      "3": 120
+    },
+    "p2_directions": {
+      "0": 40,
+      "1": 130,
+      "2": 230,
+      "3": 280
+    }
+  },
+  "Phase1_Cautious_vs_Phase2_Greedy": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 112.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 250,
+      "1": 290,
+      "2": 310,
+      "3": 240
+    },
+    "p2_directions": {
+      "0": 160,
+      "1": 200,
+      "2": 340,
+      "3": 390
+    }
+  },
+  "Phase1_Cautious_vs_Phase2_Cautious": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 112.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 250,
+      "1": 290,
+      "2": 310,
+      "3": 240
+    },
+    "p2_directions": {
+      "0": 160,
+      "1": 200,
+      "2": 340,
+      "3": 390
+    }
+  },
+  "Phase1_Cautious_vs_Phase2_Adaptive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 112.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 250,
+      "1": 290,
+      "2": 310,
+      "3": 240
+    },
+    "p2_directions": {
+      "0": 160,
+      "1": 200,
+      "2": 340,
+      "3": 390
+    }
+  },
+  "Phase1_Adaptive_vs_Snake_Baseline": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 130.0,
+    "p1_deaths": {
+      "wall": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 290,
+      "1": 200,
+      "2": 480,
+      "3": 300
+    },
+    "p2_directions": {
+      "0": 190,
+      "1": 250,
+      "2": 380,
+      "3": 450
+    }
+  },
+  "Phase1_Adaptive_vs_Expert_Defensive": {
+    "games": 10,
+    "p1_wins": 10,
+    "p2_wins": 0,
+    "ties": 0,
+    "avg_turns": 62.0,
+    "p1_deaths": {},
+    "p2_deaths": {
+      "own_trail": 10
+    },
+    "p1_directions": {
+      "0": 180,
+      "1": 140,
+      "2": 200,
+      "3": 70
+    },
+    "p2_directions": {
+      "0": 270,
+      "1": 150,
+      "2": 100,
+      "3": 70
+    }
+  },
+  "Phase1_Adaptive_vs_Expert_Balanced": {
+    "games": 10,
+    "p1_wins": 10,
+    "p2_wins": 0,
+    "ties": 0,
+    "avg_turns": 62.0,
+    "p1_deaths": {},
+    "p2_deaths": {
+      "own_trail": 10
+    },
+    "p1_directions": {
+      "0": 180,
+      "1": 140,
+      "2": 200,
+      "3": 70
+    },
+    "p2_directions": {
+      "0": 270,
+      "1": 150,
+      "2": 100,
+      "3": 70
+    }
+  },
+  "Phase1_Adaptive_vs_Expert_Aggressive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 150.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 350,
+      "1": 430,
+      "2": 460,
+      "3": 230
+    },
+    "p2_directions": {
+      "0": 260,
+      "1": 360,
+      "2": 300,
+      "3": 550
+    }
+  },
+  "Phase1_Adaptive_vs_Expert_Advanced": {
+    "games": 10,
+    "p1_wins": 10,
+    "p2_wins": 0,
+    "ties": 0,
+    "avg_turns": 87.0,
+    "p1_deaths": {},
+    "p2_deaths": {
+      "own_trail": 10
+    },
+    "p1_directions": {
+      "0": 160,
+      "1": 340,
+      "2": 280,
+      "3": 60
+    },
+    "p2_directions": {
+      "0": 130,
+      "1": 300,
+      "2": 150,
+      "3": 260
+    }
+  },
+  "Phase1_Adaptive_vs_Phase1_Greedy": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 71.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 140,
+      "1": 170,
+      "2": 250,
+      "3": 120
+    },
+    "p2_directions": {
+      "0": 40,
+      "1": 130,
+      "2": 230,
+      "3": 280
+    }
+  },
+  "Phase1_Adaptive_vs_Phase1_Cautious": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 71.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 140,
+      "1": 170,
+      "2": 250,
+      "3": 120
+    },
+    "p2_directions": {
+      "0": 40,
+      "1": 130,
+      "2": 230,
+      "3": 280
+    }
+  },
+  "Phase1_Adaptive_vs_Phase2_Greedy": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 112.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 250,
+      "1": 290,
+      "2": 310,
+      "3": 240
+    },
+    "p2_directions": {
+      "0": 160,
+      "1": 200,
+      "2": 340,
+      "3": 390
+    }
+  },
+  "Phase1_Adaptive_vs_Phase2_Cautious": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 112.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 250,
+      "1": 290,
+      "2": 310,
+      "3": 240
+    },
+    "p2_directions": {
+      "0": 160,
+      "1": 200,
+      "2": 340,
+      "3": 390
+    }
+  },
+  "Phase1_Adaptive_vs_Phase2_Adaptive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 112.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 250,
+      "1": 290,
+      "2": 310,
+      "3": 240
+    },
+    "p2_directions": {
+      "0": 160,
+      "1": 200,
+      "2": 340,
+      "3": 390
+    }
+  },
+  "Phase2_Greedy_vs_Snake_Baseline": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 0,
+    "ties": 10,
+    "avg_turns": 58.0,
+    "p1_deaths": {
+      "head_collision": 10
+    },
+    "p2_deaths": {
+      "head_collision": 10
+    },
+    "p1_directions": {
+      "0": 180,
+      "1": 330,
+      "2": 10,
+      "3": 30
+    },
+    "p2_directions": {
+      "0": 160,
+      "1": 240,
+      "2": 0,
+      "3": 160
+    }
+  },
+  "Phase2_Greedy_vs_Expert_Defensive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 104.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 250,
+      "1": 350,
+      "2": 70,
+      "3": 340
+    },
+    "p2_directions": {
+      "0": 370,
+      "1": 80,
+      "2": 370,
+      "3": 190
+    }
+  },
+  "Phase2_Greedy_vs_Expert_Balanced": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 104.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 250,
+      "1": 350,
+      "2": 70,
+      "3": 340
+    },
+    "p2_directions": {
+      "0": 370,
+      "1": 80,
+      "2": 370,
+      "3": 190
+    }
+  },
+  "Phase2_Greedy_vs_Expert_Aggressive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 183.0,
+    "p1_deaths": {
+      "wall": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 580,
+      "1": 420,
+      "2": 370,
+      "3": 430
+    },
+    "p2_directions": {
+      "0": 540,
+      "1": 360,
+      "2": 340,
+      "3": 560
+    }
+  },
+  "Phase2_Greedy_vs_Expert_Advanced": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 183.0,
+    "p1_deaths": {
+      "wall": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 580,
+      "1": 420,
+      "2": 370,
+      "3": 430
+    },
+    "p2_directions": {
+      "0": 540,
+      "1": 360,
+      "2": 340,
+      "3": 560
+    }
+  },
+  "Phase2_Greedy_vs_Phase1_Greedy": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 183.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 590,
+      "1": 420,
+      "2": 400,
+      "3": 390
+    },
+    "p2_directions": {
+      "0": 430,
+      "1": 480,
+      "2": 260,
+      "3": 630
+    }
+  },
+  "Phase2_Greedy_vs_Phase1_Cautious": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 183.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 590,
+      "1": 420,
+      "2": 400,
+      "3": 390
+    },
+    "p2_directions": {
+      "0": 430,
+      "1": 480,
+      "2": 260,
+      "3": 630
+    }
+  },
+  "Phase2_Greedy_vs_Phase1_Adaptive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 183.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 590,
+      "1": 420,
+      "2": 400,
+      "3": 390
+    },
+    "p2_directions": {
+      "0": 430,
+      "1": 480,
+      "2": 260,
+      "3": 630
+    }
+  },
+  "Phase2_Greedy_vs_Phase2_Cautious": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 131.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 230,
+      "1": 350,
+      "2": 420,
+      "3": 280
+    },
+    "p2_directions": {
+      "0": 420,
+      "1": 160,
+      "2": 260,
+      "3": 440
+    }
+  },
+  "Phase2_Greedy_vs_Phase2_Adaptive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 131.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 230,
+      "1": 350,
+      "2": 420,
+      "3": 280
+    },
+    "p2_directions": {
+      "0": 420,
+      "1": 160,
+      "2": 260,
+      "3": 440
+    }
+  },
+  "Phase2_Cautious_vs_Snake_Baseline": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 0,
+    "ties": 10,
+    "avg_turns": 58.0,
+    "p1_deaths": {
+      "head_collision": 10
+    },
+    "p2_deaths": {
+      "head_collision": 10
+    },
+    "p1_directions": {
+      "0": 180,
+      "1": 330,
+      "2": 10,
+      "3": 30
+    },
+    "p2_directions": {
+      "0": 160,
+      "1": 240,
+      "2": 0,
+      "3": 160
+    }
+  },
+  "Phase2_Cautious_vs_Expert_Defensive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 104.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 250,
+      "1": 350,
+      "2": 70,
+      "3": 340
+    },
+    "p2_directions": {
+      "0": 370,
+      "1": 80,
+      "2": 370,
+      "3": 190
+    }
+  },
+  "Phase2_Cautious_vs_Expert_Balanced": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 104.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 250,
+      "1": 350,
+      "2": 70,
+      "3": 340
+    },
+    "p2_directions": {
+      "0": 370,
+      "1": 80,
+      "2": 370,
+      "3": 190
+    }
+  },
+  "Phase2_Cautious_vs_Expert_Aggressive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 183.0,
+    "p1_deaths": {
+      "wall": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 580,
+      "1": 420,
+      "2": 370,
+      "3": 430
+    },
+    "p2_directions": {
+      "0": 540,
+      "1": 360,
+      "2": 340,
+      "3": 560
+    }
+  },
+  "Phase2_Cautious_vs_Expert_Advanced": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 183.0,
+    "p1_deaths": {
+      "wall": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 580,
+      "1": 420,
+      "2": 370,
+      "3": 430
+    },
+    "p2_directions": {
+      "0": 540,
+      "1": 360,
+      "2": 340,
+      "3": 560
+    }
+  },
+  "Phase2_Cautious_vs_Phase1_Greedy": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 183.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 590,
+      "1": 420,
+      "2": 400,
+      "3": 390
+    },
+    "p2_directions": {
+      "0": 430,
+      "1": 480,
+      "2": 260,
+      "3": 630
+    }
+  },
+  "Phase2_Cautious_vs_Phase1_Cautious": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 183.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 590,
+      "1": 420,
+      "2": 400,
+      "3": 390
+    },
+    "p2_directions": {
+      "0": 430,
+      "1": 480,
+      "2": 260,
+      "3": 630
+    }
+  },
+  "Phase2_Cautious_vs_Phase1_Adaptive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 183.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 590,
+      "1": 420,
+      "2": 400,
+      "3": 390
+    },
+    "p2_directions": {
+      "0": 430,
+      "1": 480,
+      "2": 260,
+      "3": 630
+    }
+  },
+  "Phase2_Cautious_vs_Phase2_Greedy": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 131.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 230,
+      "1": 350,
+      "2": 420,
+      "3": 280
+    },
+    "p2_directions": {
+      "0": 420,
+      "1": 160,
+      "2": 260,
+      "3": 440
+    }
+  },
+  "Phase2_Cautious_vs_Phase2_Adaptive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 131.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 230,
+      "1": 350,
+      "2": 420,
+      "3": 280
+    },
+    "p2_directions": {
+      "0": 420,
+      "1": 160,
+      "2": 260,
+      "3": 440
+    }
+  },
+  "Phase2_Adaptive_vs_Snake_Baseline": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 0,
+    "ties": 10,
+    "avg_turns": 58.0,
+    "p1_deaths": {
+      "head_collision": 10
+    },
+    "p2_deaths": {
+      "head_collision": 10
+    },
+    "p1_directions": {
+      "0": 180,
+      "1": 330,
+      "2": 10,
+      "3": 30
+    },
+    "p2_directions": {
+      "0": 160,
+      "1": 240,
+      "2": 0,
+      "3": 160
+    }
+  },
+  "Phase2_Adaptive_vs_Expert_Defensive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 104.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 250,
+      "1": 350,
+      "2": 70,
+      "3": 340
+    },
+    "p2_directions": {
+      "0": 370,
+      "1": 80,
+      "2": 370,
+      "3": 190
+    }
+  },
+  "Phase2_Adaptive_vs_Expert_Balanced": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 104.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 250,
+      "1": 350,
+      "2": 70,
+      "3": 340
+    },
+    "p2_directions": {
+      "0": 370,
+      "1": 80,
+      "2": 370,
+      "3": 190
+    }
+  },
+  "Phase2_Adaptive_vs_Expert_Aggressive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 183.0,
+    "p1_deaths": {
+      "wall": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 580,
+      "1": 420,
+      "2": 370,
+      "3": 430
+    },
+    "p2_directions": {
+      "0": 540,
+      "1": 360,
+      "2": 340,
+      "3": 560
+    }
+  },
+  "Phase2_Adaptive_vs_Expert_Advanced": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 183.0,
+    "p1_deaths": {
+      "wall": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 580,
+      "1": 420,
+      "2": 370,
+      "3": 430
+    },
+    "p2_directions": {
+      "0": 540,
+      "1": 360,
+      "2": 340,
+      "3": 560
+    }
+  },
+  "Phase2_Adaptive_vs_Phase1_Greedy": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 183.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 590,
+      "1": 420,
+      "2": 400,
+      "3": 390
+    },
+    "p2_directions": {
+      "0": 430,
+      "1": 480,
+      "2": 260,
+      "3": 630
+    }
+  },
+  "Phase2_Adaptive_vs_Phase1_Cautious": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 183.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 590,
+      "1": 420,
+      "2": 400,
+      "3": 390
+    },
+    "p2_directions": {
+      "0": 430,
+      "1": 480,
+      "2": 260,
+      "3": 630
+    }
+  },
+  "Phase2_Adaptive_vs_Phase1_Adaptive": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 183.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 590,
+      "1": 420,
+      "2": 400,
+      "3": 390
+    },
+    "p2_directions": {
+      "0": 430,
+      "1": 480,
+      "2": 260,
+      "3": 630
+    }
+  },
+  "Phase2_Adaptive_vs_Phase2_Greedy": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 131.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 230,
+      "1": 350,
+      "2": 420,
+      "3": 280
+    },
+    "p2_directions": {
+      "0": 420,
+      "1": 160,
+      "2": 260,
+      "3": 440
+    }
+  },
+  "Phase2_Adaptive_vs_Phase2_Cautious": {
+    "games": 10,
+    "p1_wins": 0,
+    "p2_wins": 10,
+    "ties": 0,
+    "avg_turns": 131.0,
+    "p1_deaths": {
+      "own_trail": 10
+    },
+    "p2_deaths": {},
+    "p1_directions": {
+      "0": 230,
+      "1": 350,
+      "2": 420,
+      "3": 280
+    },
+    "p2_directions": {
+      "0": 420,
+      "1": 160,
+      "2": 260,
+      "3": 440
+    }
+  }
+}

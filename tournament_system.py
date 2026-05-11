@@ -140,19 +140,19 @@ def create_player_variants():
     
     variants.append(PlayerVariant(
         "Expert_Defensive",
-        ExpertAgent(aggression=0.3, depth_limit=15),
+        ExpertAgent(aggression=0.3, lookahead=3),
         "Conservative expert - prioritizes survival"
     ))
     
     variants.append(PlayerVariant(
         "Expert_Balanced",
-        ExpertAgent(aggression=0.5, depth_limit=10),
+        ExpertAgent(aggression=0.5, lookahead=3),
         "Balanced expert - default strategy"
     ))
     
     variants.append(PlayerVariant(
         "Expert_Aggressive",
-        ExpertAgent(aggression=0.8, depth_limit=8),
+        ExpertAgent(aggression=0.8, lookahead=3),
         "Aggressive expert - seeks opponent cuts"
     ))
     
@@ -254,21 +254,31 @@ def run_matchup(variant1, variant2, num_games=100, verbose=False):
     results = []
     
     for i in range(num_games):
-        game.reset()
-        done = False
+        stats = game.play_match(variant1.agent, variant2.agent, verbose=False)
         
-        while not done:
-            obs = game.get_observation()
-            
-            # Get actions from both agents (both DQN and Expert agents use player_num)
-            action1 = variant1.agent.get_action(obs, player_num=1)
-            action2 = variant2.agent.get_action(obs, player_num=2)
-            
-            done, winner = game.step(action1, action2)
+        # Convert direction percentages to move counts for this game
+        p1_dir_counts = {}
+        p2_dir_counts = {}
+        for direction, pct in stats['p1_direction_distribution'].items():
+            # Convert percentage back to approximate move count
+            move_count = int(pct * stats['turns'] / 100)
+            p1_dir_counts[str(direction)] = move_count
+        for direction, pct in stats['p2_direction_distribution'].items():
+            move_count = int(pct * stats['turns'] / 100)
+            p2_dir_counts[str(direction)] = move_count
         
-        # Get final statistics
-        stats = game.get_game_stats()
-        results.append(stats)
+        # Convert to format expected by tournament stats
+        result = {
+            'winner': stats['winner'],
+            'turns': stats['turns'],
+            'p1_territory': stats['p1_controlled_territory'],
+            'p2_territory': stats['p2_controlled_territory'],
+            'p1_death_type': stats['p1_death_type'],
+            'p2_death_type': stats['p2_death_type'],
+            'p1_directions': p1_dir_counts,
+            'p2_directions': p2_dir_counts,
+        }
+        results.append(result)
         
         if verbose and (i + 1) % 20 == 0:
             print(f"  Completed {i+1}/{num_games} games")
@@ -381,6 +391,7 @@ def print_leaderboard(tournament_stats, variants):
                 'win_rate': total_wins / total_games,
                 'total_wins': total_wins,
                 'total_losses': total_losses,
+                'total_ties': total_ties,
                 'total_games': total_games,
                 'avg_territory': total_territory / total_games,
                 'death_types': dict(death_types),

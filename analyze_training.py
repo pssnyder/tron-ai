@@ -53,18 +53,10 @@ def analyze_model(model_path, model_name, architecture):
             
             num_games = 100
             for _ in range(num_games):
-                game.reset()
-                done = False
+                stats = game.play_match(agent, opponent, verbose=False)
                 
-                while not done:
-                    obs = game.get_observation()
-                    action1 = agent.get_action(obs, player_num=1)
-                    action2 = opponent.get_action(obs, player_num=2)
-                    done, winner = game.step(action1, action2)
-                
-                stats = game.get_game_stats()
                 total_turns += stats['turns']
-                total_territory += stats['p1_territory']
+                total_territory += stats['p1_controlled_territory']
                 
                 if stats['winner'] == 1:
                     wins += 1
@@ -122,16 +114,8 @@ def compare_models():
         ties = 0
         
         for _ in range(100):
-            game.reset()
-            done = False
+            stats = game.play_match(phase2, phase1, verbose=False)
             
-            while not done:
-                obs = game.get_observation()
-                action1 = phase2.get_action(obs, player_num=1)  # Phase 2 as P1
-                action2 = phase1.get_action(obs, player_num=2)  # Phase 1 as P2
-                done, winner = game.step(action1, action2)
-            
-            stats = game.get_game_stats()
             if stats['winner'] == 1:
                 p2_wins += 1
             elif stats['winner'] == 2:
